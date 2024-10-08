@@ -1,6 +1,6 @@
 
 -- -----------------------------------------------------
--- vendinhaADS
+-- vendaJogos
 -- -----------------------------------------------------
 
 CREATE TABLE IF NOT EXISTS produto (
@@ -651,3 +651,20 @@ Insert into municipio (Codigo, Nome, estado_Uf) values ('4323705','Vista Gaúcha
 Insert into municipio (Codigo, Nome, estado_Uf) values ('4323754','Vitória das Missões', 'RS');
 Insert into municipio (Codigo, Nome, estado_Uf) values ('4323770','Westfalia', 'RS');
 Insert into municipio (Codigo, Nome, estado_Uf) values ('4323804','Xangri-lá', 'RS');
+
+
+
+INSERT INTO `jogo` (`idjogo`, `nome`, `plataformaN`, `descricao`, `valor`, `imagem`, `serie`) VALUES 
+(NULL, 'Tom Clancy\'s The Division', '2', 'Tom Clancy\'s The Division para PS4.', '120', 'division', 'The Division'), 
+  (NULL, 'Far Cry New Dawn', '2', 'Far Cry New Dawn para PS4.', '99.99', 'farcrynd', 'Far Cry'), 
+  (NULL, 'Dragon Ball: Xenoverse 2', '2', 'Dragon Ball: Xenoverse 2 para PS4.', '130.54', 'dragonx2', 'Dragon Ball'), 
+  (NULL, 'Red Dead Redemption 2', '2', 'Red Dead Redemption 2 para PS4.', '190', 'redd2', 'Red Dead Redemption'), 
+  (NULL, 'Resident Evil 7: Biohazard (Gold Edition)', '2', 'Resident Evil 7: Biohazard (Gold Edition) para PS4.', '160', 're7', 'Resident Evil'), 
+  (NULL, 'NBA 2K21', '1', 'NBA 2K21 para PS5.', '350', 'nba2k21', 'NBA'), (NULL, 'God of War Collection', '3', 'God of War Collection para PS3.', '100', 'godps3r', 'God of War'), 
+  (NULL, 'God of War Saga', '3', 'God of War Collection para PS3.', '231', 'godtudo', 'God of War'), (NULL, 'Resident Evil 6', '3', 'Resident Evil 6 para PS3.', '170', 're6ps3', 'Resident Evil'), 
+  (NULL, 'Hitman 3', '1', 'Hitman 3 para PS5.', '219', 'hitman3', 'Hitman'), (NULL, 'Minecraft', '3', 'Minecraft para PS3.', '89.99', 'mine', 'Minecraft'), 
+  (NULL, 'Star War Jedi: Fallen Order Edição Padrão', '5', 'Star War Jedi: Fallen Order Edição Padrão para XBOX ONE.', '60', 'jedixbox', 'Star War'), 
+  (NULL, 'Tom Clancy’S - Rainbow Six Siege', '5', 'Tom Clancy’S - Rainbow Six Siege para XBOX ONE.', '50', 'r6xbox', 'Rainbow Six Siege'), 
+  (NULL, 'Grand Theft Auto V', '4', 'Grand Theft Auto V para XBOX 360', '240', 'gtaxbox360', 'Grand Theft Auto'), 
+  (NULL, 'Resident Evil Village: Gold Edition', '1', 'Resident Evil Village: Gold Edition para PS5.', '198', 'revillage', 'Resident Evil'), 
+  (NULL, 'Resident Evil 4', '1', 'Resident Evil 4 para PS5.', '243', 're4ps5', 'Resident Evil')
